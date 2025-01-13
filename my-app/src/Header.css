@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+    padding: 15px;
+    background-color: #000000;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    width: 100%;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  .nav-list li {
+    padding-right: 20px;
+  }
+  
+  .nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+  }
+  
+  .nav-list li a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,39 @@
+.App {
+  text-align: left;
+}
+
+
+.left-align {
+  text-align: left;
+}
+  
+
+.large-text {
+  font-size: 3em;
+  color:blue;
+}
+
+.with-padding {
+  padding: 30px;
+}
+
+.boxes-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #020305;
+  padding-left: 50px;
+  color: rgb(243, 70, 70);
+}
+
+
+h1 {
+  font-size: 20em;
+}
