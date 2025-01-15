@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://Ayush0007-rx/reactapp",
+   "homepage": "https://Ayush0007-rx.github.io/reactapp/my-app",
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
