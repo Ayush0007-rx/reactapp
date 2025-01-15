@@ -9,7 +9,7 @@ function Header() {
         <div className="logo" style={{display: 'flex',paddingLeft: '50px'}}>
         <img src={logo} alt="UnStop Logo" style={logoStyle} />
             <input type="text" placeholder="Search..." style={searchBarStyle} />
-            <ul className='nav-list' style={{display: 'flex', listStyleType: 'none', paddingRight: '20px' , alignItems: 'center', gap: '40px'}} >
+            <ul className='nav-list' style={{display: 'flex', listStyleType: 'none', paddingRight: '20px' , alignItems: 'center', gap: '40px'}}>
                 <li style={{ paddingRight: '20px'}}>Home</li>
                 <li style={{ paddingRight: '20px'}}>About</li>
                 <li style={{ paddingRight: '20px'}}>Services</li>
@@ -33,7 +33,8 @@ const headerStyle = {
 const logoStyle = {
   width: '120px',
   height: '50px',// Adjust the height as needed
-  marginRight: '700px' // Optional: Add some margin to separate the logo from the navigation items
+  marginRight: '700px',
+  marginTop: '7px' // Optional: Add some margin to separate the logo from the navigation items
 };
 
 const searchBarStyle = {
@@ -43,3 +44,4 @@ const searchBarStyle = {
 };
 
 export default Header;
+
